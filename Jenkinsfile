@@ -2,7 +2,6 @@ pipeline {
     agent any 
     tools {
         maven 'localMaven'
-        dockerTool 'localDocker'
     }
      
     stages{
